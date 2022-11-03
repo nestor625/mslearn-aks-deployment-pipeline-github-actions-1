@@ -18,8 +18,8 @@ jobs:
         uses: docker/login-action@v1
         with:
           registry: nestoracr
-          username: nestoracr
-          password: r=6Fvd56pKi7ouaDoXukvTO7yN4=T7aQ
+          username: nestor625
+          password: 2001625aA
 
       - name: Build and push staging images
         uses: docker/build-push-action@v2
