@@ -23,7 +23,7 @@ jobs:
         uses: docker/login-action@v1
         with:
           registry: nestoracr.azurecr.io
-          username: nestor
+          username: nestoracr
           password: r=6Fvd56pKi7ouaDoXukvTO7yN4=T7aQ
 
       - name: Build and push production images
